@@ -1,0 +1,52 @@
+@import '../../../shared/colors.scss';
+
+.o-line-item {
+  margin-top: 14px;
+}
+
+.o-line-item-quantity {
+  text-align: right;
+}
+
+.o-line-item-price {
+  text-align: right;
+}
+
+.o-line-item-amount {
+  text-align: right;
+}
+
+.o-line-item-field:nth-child(1) {
+  margin-right: 10px;
+}
+
+.o-line-item-field:nth-child(2) {
+  width: 140px;
+}
+
+.o-line-item-field:nth-child(3) input {
+  margin-left: 10px;
+  margin-right: 26px;
+  width: 26px;
+}
+
+.o-line-item-field:nth-child(4) input {
+  width: 52px;
+}
+
+.o-line-item-field:nth-child(5) input {
+  border: none;
+  margin-left: 18px;
+  width: 52px;
+}
+
+.o-line-item-remove-btn {
+  align-self: baseline;
+  bottom: 4px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  height: 26px;
+  padding-left: 10px;
+  position: relative;
+}

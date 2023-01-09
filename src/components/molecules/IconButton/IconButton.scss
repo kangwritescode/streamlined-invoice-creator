@@ -1,0 +1,17 @@
+@import '../../../shared/colors.scss';
+
+
+.b-icon {
+    background: $yellow;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    font-family: 'Calibre Semibold';
+    font-size: 14pt;
+    padding: 10px 14px;
+    cursor: pointer;
+}
+
+.b-icon-check {
+    margin-right: 4px
+}

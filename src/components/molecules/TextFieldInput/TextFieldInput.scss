@@ -1,0 +1,16 @@
+@import '../../../shared/colors.scss';
+
+.m-text-input {
+    border: 1px solid $lighter-grey;
+    border-radius: 2px;
+    padding: 12px 12px 6px;
+}
+
+.m-text-input--error {
+    border-color: red;
+}
+.m-text-input-error {
+    color: red;
+    font-size: 14px;
+    margin-top: 4px;
+}
